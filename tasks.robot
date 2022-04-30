@@ -34,7 +34,7 @@ Order robots from RobotSpareBin Industries Inc
 *** Keywords ***
 Navigate to the order website
     Open Available Browser    ${ORDER_SITE_URL}
-    #Maximize Browser Window
+    Maximize Browser Window
 
 Close the annoying modal
     Wait Until Element Is Enabled    xpath://div[@class="modal" and @style="display: block;"]
